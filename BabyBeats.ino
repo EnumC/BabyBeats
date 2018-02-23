@@ -53,7 +53,7 @@ void setup()
   // Debug console
   Serial.begin(9600);
 
-  wifiManager.autoConnect("prototype_babyBeats");
+  wifiManager.autoConnect("BabyBeatsPrototype");
 
   WiFi.printDiag(Serial);
 
